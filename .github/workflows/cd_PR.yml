@@ -20,10 +20,6 @@ jobs:
         with:
           version: 10
           
-      
-      - name: Set up Docker
-        uses: docker/setup-docker-action@v4
-     
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -39,13 +35,15 @@ jobs:
           env: branch-deploy-${{ github.head_ref }}
           ref: ${{ github.head_ref }}
 
-      - name: Install dependencies
-        run: ./setup.sh
+      - name: Install dependencies and build
+        run: |
+          pnpm install
+          pnpm build
       
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0
         with:
-            publish-dir: './next'
+            publish-dir: '.next'
             production-branch: main
             github-token: ${{ secrets.GITHUB_TOKEN }}
             deploy-message: "Deploy from GitHub Actions"
