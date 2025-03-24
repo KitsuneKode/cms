@@ -185,19 +185,23 @@ export const UpdateVideoClient = ({
                   type="text"
                   placeholder="Admin password"
                   onChange={(e) => setAdminPassword(e.target.value)}
-                  />
-              <span className='gap-2 my-2 text-xl'>Slides Type</span>
+                />
+                <span className="my-2 gap-2 text-xl">Slides Type</span>
 
-              <RadioGroup defaultValue="NOTION"  className='grid-cols-4' onValueChange={(value) => setSlidesType(value)}>
-                <div className="flex items-center space-x-2">
-                  <RadioGroupItem value="NOTION" id="notion" />
-                  <Label htmlFor="notion">Notion</Label>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <RadioGroupItem value="NOT_NOTION" id="other" />
-                  <Label htmlFor="other">Other Type</Label>
-                </div>
-              </RadioGroup>
+                <RadioGroup
+                  defaultValue="NOTION"
+                  className="grid-cols-4"
+                  onValueChange={(value) => setSlidesType(value)}
+                >
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="NOTION" id="notion" />
+                    <Label htmlFor="notion">Notion</Label>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="NOT_NOTION" id="other" />
+                    <Label htmlFor="other">Other Type</Label>
+                  </div>
+                </RadioGroup>
 
                 <Button
                   className="my-4 w-full rounded p-2 font-bold text-white lg:w-[20%]"

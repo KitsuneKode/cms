@@ -201,7 +201,7 @@ async function seedVideoMetadata({
   slides,
   id,
   contentId,
-  slidesType
+  slidesType,
 }: {
   slides: string;
   slidesType: 'NOTION' | 'NOT_NOTION';

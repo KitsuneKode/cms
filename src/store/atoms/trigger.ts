@@ -7,5 +7,5 @@ export const trigger = atom<number>({
 
 export const pipTrigger = atom<boolean>({
   key: 'pip_trigger',
-  default: false
+  default: false,
 });

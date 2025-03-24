@@ -59,7 +59,11 @@ export const FilterContent = forwardRef<HTMLDivElement, FilterContentProps>(
                     value={filters.value}
                     className={`px-4 ${props.className || ''}`}
                     onSelect={(currentValue) => {
-                      setValue(currentValue === value ? 'all' as FilterType : currentValue as FilterType);
+                      setValue(
+                        currentValue === value
+                          ? ('all' as FilterType)
+                          : (currentValue as FilterType),
+                      );
                       setOpen(false);
                     }}
                   >
