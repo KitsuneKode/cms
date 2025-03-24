@@ -115,7 +115,6 @@ export const VideoPlayer: FunctionComponent<VideoPlayerProps> = ({
   };
 
   const setupZoomFeatures = (player: any) => {
-
     if (typeof window === 'undefined' || typeof document === 'undefined') return;
   
     const videoEl = player.el().querySelector('video');
@@ -170,7 +169,7 @@ export const VideoPlayer: FunctionComponent<VideoPlayerProps> = ({
     })();
   
     // Unified gesture handler
-    const handleGestureControl = (e: HammerInput) => {
+    const handleGestureControl = (e: any) => {
       const target = e.srcEvent.target as HTMLElement;
       const isControlBar = target.closest('.vjs-control-bar');
       

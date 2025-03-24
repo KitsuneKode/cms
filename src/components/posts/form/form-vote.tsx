@@ -53,7 +53,6 @@ const VoteForm: React.FC<IVoteFormProps> = ({
           }
     );
   };
-  
 
   const userVoted = Boolean(votesArr.length);
   const userVoteVal = votesArr[0];
