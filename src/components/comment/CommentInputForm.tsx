@@ -42,7 +42,7 @@ const CommentInputForm = ({
     setCommentText('');
   };
 
-  const isAllSpaces = (str: string): boolean => (/^\s*$/).test(str);
+  const isAllSpaces = (str: string): boolean => /^\s*$/.test(str);
 
   const isCommentValid = () => {
     return !isAllSpaces(commentText);
@@ -113,7 +113,6 @@ const CommentInputForm = ({
         }} // Adjust height on text change
       />
       <FormErrors id="content" errors={fieldErrors} />
-
       <Button type="submit" disabled={isButtonDisabled} className="w-fit">
         {parentId ? 'Reply' : 'Comment'}
       </Button>
