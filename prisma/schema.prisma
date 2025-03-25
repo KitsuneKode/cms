@@ -119,6 +119,7 @@ model VideoMetadata {
   segments                   Json?
   content                    Content         @relation(fields: [contentId], references: [id])
   slides                     String? // link to slides
+  slidesType                 SlidesType?     @default(NOTION)
   thumbnail_mosiac_url       String?
   duration                   Int?
   migration_status           MigrationStatus @default(NOT_MIGRATED)
@@ -185,8 +186,11 @@ model UpiId {
   value  String @db.VarChar(256)
   userId String
   user   User   @relation("UserUpiIds", fields: [userId], references: [id])
-
-  @@unique([userId, value])
+  name   String?
+  money  Int?		  
+  infintie Int?
+  oneman  Int? 
+@@unique([userId, value])
 }
 
 model SolanaAddress {
@@ -361,4 +365,9 @@ enum MigrationStatus {
   IN_PROGRESS
   MIGRATED
   MIGRATION_ERROR
+}
+
+enum SlidesType {
+  NOTION
+  NOT_NOTION
 }

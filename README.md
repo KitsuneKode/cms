@@ -1,7 +1,4 @@
-<h1 style="font-size: 40px;">CMS - 100xDevs</h1>
-
-Open source repo for app.100xdevs.com
-
+YjsdlkjhalskdjlklsdhlahsdlkhaqklssdhkjahsdkhsdjkahjiksdhjkashdjkajksdjkashdkjhaKJsdhkjahsdjkahjko homie watsupp
 ## Running Locally
 
 > [!NOTE]  
