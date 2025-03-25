@@ -185,7 +185,7 @@ model UpiId {
   value  String @db.VarChar(256)
   userId String
   user   User   @relation("UserUpiIds", fields: [userId], references: [id])
-
+  name   String?
   @@unique([userId, value])
 }
 
