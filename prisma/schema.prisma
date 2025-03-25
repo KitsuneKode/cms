@@ -187,7 +187,8 @@ model UpiId {
   user   User   @relation("UserUpiIds", fields: [userId], references: [id])
   name   String?
   money  Int?		  
-  infintie Int? 
+  infintie Int?
+  oneman  Int? 
 @@unique([userId, value])
 }
 
