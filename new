@@ -1,2 +1,198 @@
-# Created by Vercel CLI
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": PostgreSQL database "cms", schema "public" at "localhost:5432"
+
+Applying migration `20231119045842_init`
+Applying migration `20231119051035_update_course`
+Applying migration `20231119063735_added_content`
+Applying migration `20231119070313_update_video_metadata`
+Applying migration `20231120052608_add_next_auth`
+Applying migration `20231120081441_init`
+Applying migration `20231121054501_init`
+Applying migration `20231125233546_appx`
+Applying migration `20231125233929_appx`
+Applying migration `20231126005118_appx`
+Applying migration `20231129013219_add_bulk_discords`
+Applying migration `20231129030824_add_bulk_discords_unique`
+Applying migration `20231129095057_add_schema_subtitles`
+Applying migration `20231130102613_add_schema_subtitles`
+Applying migration `20231204062722_open_to_everyone`
+Applying migration `20231207104413_add_slides_link`
+Applying migration `20231208122916_add_backdoor_drm`
+Applying migration `20231208123319_add_backdoor_mp4_links`
+Applying migration `20231212075742_add_segemnts_to_videos`
+Applying migration `20231214062542_add_more_info`
+Applying migration `20231214114048_add_duration`
+Applying migration `20231218161052_adds_current_timestamp`
+Applying migration `20231218162941_makes_content_user_pair_unique`
+Applying migration `20240114214841_add_notion_metadata`
+Applying migration `20240114220154_add_notion_metadata_fix`
+Applying migration `20240202163217_add_completed_field_to_video_progress`
+Applying migration `20240203231627_hidden`
+Applying migration `20240209234513_add_comments`
+Applying migration `20240226093954_update`
+Applying migration `20240317222835_add_is_pinned_comment`
+Applying migration `20240318200949_add_bookmark`
+Applying migration `20240319183729_add_password`
+Applying migration `20240319185121_add_appx_user_id`
+Applying migration `20240324133414_modify_video_progress`
+Applying migration `20240402112352_remove_course_from_bookmark`
+Applying migration `20240416130800_add_questions_answers`
+Applying migration `20240424002140_add_certificates`
+Applying migration `20240507073349_adds_certs`
+Applying migration `20240512172646_add_cert_slug`
+Applying migration `20240513051454_fix_constraints`
+Applying migration `20240601123949_added_migration_status`
+Applying migration `20240601213343_`
+Applying migration `20240610142535_bunny_added`
+Applying migration `20240720214701_convert_to_string`
+Applying migration `20240720222420_discord`
+Applying migration `20240720230424_init`
+Applying migration `20240811175241_add_payout_methods`
+Applying migration `20240816093504_add`
+Applying migration `20240828061415_add_github_link`
+Applying migration `20240830090007_add_bounty_submission`
+Applying migration `20240830204152_`
+Applying migration `20240830223934_add_subtitle_tries`
+Applying migration `20241121062529_add_appx_fields`
+Applying migration `20241130091016_added_appx_video_id_mapping_with_appx_video_json`
+Applying migration `20250225124531_add_slides_type`
+
+Database reset successful
+
+The following migration(s) have been applied:
+
+migrations/
+  └─ 20231119045842_init/
+    └─ migration.sql
+  └─ 20231119051035_update_course/
+    └─ migration.sql
+  └─ 20231119063735_added_content/
+    └─ migration.sql
+  └─ 20231119070313_update_video_metadata/
+    └─ migration.sql
+  └─ 20231120052608_add_next_auth/
+    └─ migration.sql
+  └─ 20231120081441_init/
+    └─ migration.sql
+  └─ 20231121054501_init/
+    └─ migration.sql
+  └─ 20231125233546_appx/
+    └─ migration.sql
+  └─ 20231125233929_appx/
+    └─ migration.sql
+  └─ 20231126005118_appx/
+    └─ migration.sql
+  └─ 20231129013219_add_bulk_discords/
+    └─ migration.sql
+  └─ 20231129030824_add_bulk_discords_unique/
+    └─ migration.sql
+  └─ 20231129095057_add_schema_subtitles/
+    └─ migration.sql
+  └─ 20231130102613_add_schema_subtitles/
+    └─ migration.sql
+  └─ 20231204062722_open_to_everyone/
+    └─ migration.sql
+  └─ 20231207104413_add_slides_link/
+    └─ migration.sql
+  └─ 20231208122916_add_backdoor_drm/
+    └─ migration.sql
+  └─ 20231208123319_add_backdoor_mp4_links/
+    └─ migration.sql
+  └─ 20231212075742_add_segemnts_to_videos/
+    └─ migration.sql
+  └─ 20231214062542_add_more_info/
+    └─ migration.sql
+  └─ 20231214114048_add_duration/
+    └─ migration.sql
+  └─ 20231218161052_adds_current_timestamp/
+    └─ migration.sql
+  └─ 20231218162941_makes_content_user_pair_unique/
+    └─ migration.sql
+  └─ 20240114214841_add_notion_metadata/
+    └─ migration.sql
+  └─ 20240114220154_add_notion_metadata_fix/
+    └─ migration.sql
+  └─ 20240202163217_add_completed_field_to_video_progress/
+    └─ migration.sql
+  └─ 20240203231627_hidden/
+    └─ migration.sql
+  └─ 20240209234513_add_comments/
+    └─ migration.sql
+  └─ 20240226093954_update/
+    └─ migration.sql
+  └─ 20240317222835_add_is_pinned_comment/
+    └─ migration.sql
+  └─ 20240318200949_add_bookmark/
+    └─ migration.sql
+  └─ 20240319183729_add_password/
+    └─ migration.sql
+  └─ 20240319185121_add_appx_user_id/
+    └─ migration.sql
+  └─ 20240324133414_modify_video_progress/
+    └─ migration.sql
+  └─ 20240402112352_remove_course_from_bookmark/
+    └─ migration.sql
+  └─ 20240416130800_add_questions_answers/
+    └─ migration.sql
+  └─ 20240424002140_add_certificates/
+    └─ migration.sql
+  └─ 20240507073349_adds_certs/
+    └─ migration.sql
+  └─ 20240512172646_add_cert_slug/
+    └─ migration.sql
+  └─ 20240513051454_fix_constraints/
+    └─ migration.sql
+  └─ 20240601123949_added_migration_status/
+    └─ migration.sql
+  └─ 20240601213343_/
+    └─ migration.sql
+  └─ 20240610142535_bunny_added/
+    └─ migration.sql
+  └─ 20240720214701_convert_to_string/
+    └─ migration.sql
+  └─ 20240720222420_discord/
+    └─ migration.sql
+  └─ 20240720230424_init/
+    └─ migration.sql
+  └─ 20240811175241_add_payout_methods/
+    └─ migration.sql
+  └─ 20240816093504_add/
+    └─ migration.sql
+  └─ 20240828061415_add_github_link/
+    └─ migration.sql
+  └─ 20240830090007_add_bounty_submission/
+    └─ migration.sql
+  └─ 20240830204152_/
+    └─ migration.sql
+  └─ 20240830223934_add_subtitle_tries/
+    └─ migration.sql
+  └─ 20241121062529_add_appx_fields/
+    └─ migration.sql
+  └─ 20241130091016_added_appx_video_id_mapping_with_appx_video_json/
+    └─ migration.sql
+  └─ 20250225124531_add_slides_type/
+    └─ migration.sql
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (v5.18.0) to ./node_modules/.pnpm/@prisma+client@5.18.
+0_prisma@5.18.0/node_modules/@prisma/client in 672ms
+
+Running seed command `ts-node --compiler-options {"module":"CommonJS"} prisma/seed.ts` ...
+Created folder: {
+  id: 1,
+  type: 'folder',
+  title: 'week 1',
+  hidden: false,
+  description: null,
+  thumbnail: 'https://appx-recordings.s3.ap-south-1.amazonaws.com/drm/100x/images/week-1.jpg',
+  parentId: null,
+  createdAt: 2025-03-25T14:11:52.107Z,
+  notionMetadataId: null,
+  commentsCount: 0
+}
+Created content: { count: 4 }
+
+🌱  The seed command has been executed.
 
