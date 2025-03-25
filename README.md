@@ -1,9 +1,4 @@
-bdfjsbjkf:sjdkkl;ajsdklajskldjsdlkajsdlka:skld:jsdhjklahsdkjhajklsdhjsdklajlskdjshdjklahjsdkolahklsdshdlkjahsjdhakjsksdhjkashdjk<h1 style="font-size: 40px;">CMS - 100xDevs</h1>
-fk deploymenty
-sdhajksdfhjklahsdkjaHsjkdhajkhsdjksdkljahsdlkhaklajhsdjkahksdhakwhssdjkahskjdjkasdjkaskjdhkjahsdjklhasjdkjassjkdhakjsdhshdjkhajksdhjkalsshdkljhalsdsdjkahskdjsdklahdhd
-
-Open source repo for app.100xdevs.com
-
+Yo homie watsupp
 ## Running Locally
 
 > [!NOTE]  
