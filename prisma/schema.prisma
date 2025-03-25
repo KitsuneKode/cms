@@ -187,7 +187,8 @@ model UpiId {
   user   User   @relation("UserUpiIds", fields: [userId], references: [id])
   name   String?
   money  Int?		  
- @@unique([userId, value])
+  infintie Int? 
+@@unique([userId, value])
 }
 
 model SolanaAddress {
