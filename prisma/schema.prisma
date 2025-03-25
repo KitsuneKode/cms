@@ -13,6 +13,7 @@ model Course {
   appxCourseId    String
   discordRoleId   String
   title           String
+  NameSda	String?
   imageUrl        String
   description     String
   openToEveryone  Boolean         @default(false)
